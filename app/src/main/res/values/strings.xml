@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">P2_Fragments3</string>
+    <string name="menu_temperature">Temperature</string>
+    <string name="menu_distance">Distance</string>
+</resources>

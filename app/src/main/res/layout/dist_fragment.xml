@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonConvertToKM"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="154dp"
+        android:layout_marginLeft="154dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="154dp"
+        android:layout_marginBottom="154dp"
+        android:textSize="15dp"
+        android:text="Convert to KiloMetres" />
+
+    <Button
+        android:id="@+id/buttonConvertToM"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="154dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginRight="154dp"
+        android:layout_marginBottom="154dp"
+        android:textSize="15dp"
+        android:text="Convert to Miles" />
+
+    <TextView
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="754dp"
+        android:layout_marginBottom="54dp"
+        android:text="Kilometres"
+        android:textSize="28dp" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="754dp"
+        android:layout_marginBottom="54dp"
+        android:text="Miles"
+        android:textSize="28dp" />
+    <TextView
+        android:id="@+id/finalMiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="230dp"
+        android:layout_marginBottom="75dp"
+        android:ems="10"
+        android:text="000"
+        android:textSize="36dp"
+        android:layout_marginRight="75dp" />
+    <TextView
+        android:id="@+id/finalKilo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="254dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="75dp"
+        android:ems="10"
+        android:text="000"
+        android:textSize="36dp"
+        android:layout_marginRight="75dp" />
+
+    <EditText
+        android:id="@+id/editM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="235dp"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginBottom="354dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="0" />
+
+    <EditText
+        android:id="@+id/editKM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="235dp"
+        android:layout_marginBottom="75dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="0"
+        android:layout_marginRight="75dp" />
+
+</RelativeLayout>
